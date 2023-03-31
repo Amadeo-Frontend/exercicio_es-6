@@ -6,11 +6,11 @@ const estudantes = [
   { name: "Ivanilde", nota: 5 },
 ];
 
-function getApprovedStudents(estudantes) {
+function somenteAprovados(estudantes) {
   const estudantesAprovados = estudantes.filter(
     (estudantes) => estudantes.nota >= 6
   );
   return estudantesAprovados;
 }
 
-console.log(getApprovedStudents(estudantes));
+console.log(somenteAprovados(estudantes));
